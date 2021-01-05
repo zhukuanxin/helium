@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>错误</title>
+<title>首页</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.2/vue.global.prod.js" integrity="sha512-M8VjsuCj1iBzrwKloFNjvQBmFXT2oF0MWExoLGpQT2nEx5tq7CP+BhWGJdczT1LoWAhyqHh+LJ6ihHSVGyclHw==" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1 th:text="${message}">错误</h1>
-    <p th:text="${thread}11"></p>
-    <p th:text="${stackTrace}"></p>
+    <h1>
+        <input type="text" name="userName" value="James Carrot" th:value="${user}" />
+    </h1>
 </body>
 </html>
